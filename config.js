@@ -17,7 +17,7 @@ const envSchema = Joi.object().keys({
   GITHUB_CALLBACK: Joi.string().required(),
   BELL_COOKIE_PASS: Joi.string().required(),
   COOKIE_PASS: Joi.string().required(),
-  BROWSERSCOPE: Joi.string().required(),
+  //BROWSERSCOPE: Joi.string().required(),
   MYSQL_HOST: Joi.string().optional().default('localhost'),
   MYSQL_PORT: Joi.number().optional().default(3306),
   MYSQL_USER: Joi.string().required(),

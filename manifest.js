@@ -139,7 +139,7 @@ var manifest = {
         }
       }
     },
-    {
+    /**{
       plugin: {
         register: './server/repositories/browserscope',
         options: {
@@ -148,7 +148,7 @@ var manifest = {
           domain: config.get('/domain')
         }
       }
-    },
+    },**/
     {
       plugin: {
         register: './server/lib/cache',
