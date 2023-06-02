@@ -12,7 +12,7 @@ var visionaryContextDefault = {
   scheme: config.get('/scheme'),
   domain: config.get('/domain')
 };
-
+console.log(config.get('/loggly/subdomain'))
 var manifest = {
   $meta: 'jsPerf backend',
   server: {
