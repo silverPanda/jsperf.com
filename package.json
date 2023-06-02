@@ -6,6 +6,7 @@
     "node": ">= 8.x"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "build": "gulp",
     "lint": "lab -d -L",
     "start": "node server.js",
